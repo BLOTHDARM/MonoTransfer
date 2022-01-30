@@ -1,7 +1,7 @@
-#include <SimpleTransmition.h>
+#include <MonoTransfer.h>
 
 // SimpleTransmition(arduino digital pin, speed (recommend 1000 and higher for atmega328 with 16 mhz crystal oscillator ), packet ending symbol)
-SimpleTransmition Seriall(5,1000,'-');
+MonoTransfer Seriall(5,1000,'-');
 
 void setup()
 {
