@@ -1,0 +1,17 @@
+#######################################
+# Syntax Coloring Map MonoTransfer
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+MonoTransfer	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+available	KEYWORD2
+end	KEYWORD2
+send	KEYWORD2
+read	KEYWORD2
+fromBinToDec	KEYWORD2
