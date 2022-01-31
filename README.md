@@ -25,9 +25,10 @@ You need 2 controllers and 1 resistor (10k recomended)
 Constructor need 3 arguments: arduino pin, standart delay (in microseconds default 1000) (lower value = higher speed), ending symbol.
 
 <details><summary><b>Show example</b></summary>
-	```
-    MonoTransfer Seriall(5,1000,'-');
-	```
+
+```diff
+MonoTransfer Seriall(5,1000,'-');
+```
 </details>
 
 ### Send/read
@@ -35,9 +36,10 @@ Sending and reading is as easy as configuration - use ```send()``` and ```String
 
 
 <details><summary><b>Show example</b></summary>
-	```
-    Seriall.send("Test message");
-	```
+
+```diff
+Seriall.send("Test message");
+```
 </details>
 
 Common code to obtain data will use ```available()``` and ```read()``` functions.
